@@ -1,0 +1,60 @@
+{
+    "context-menu": {
+        "atom-text-editor": [{
+                "label": "Toggle my-package",
+                "command": "my-package:toggle"
+            },
+            {
+                "label": "next my-package",
+                "command": "my-package:next"
+            },
+            {
+                "label": "play my-package",
+                "command": "my-package:play"
+            },
+            {
+                "label": "pause my-package",
+                "command": "my-package:pause"
+            },
+            {
+                "label": "getmusic my-package",
+                "command": "my-package:getmusic"
+            },
+            {
+                "label": "list my-package",
+                "command": "my-package:list"
+            }
+        ]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "my-package",
+            "submenu": [{
+                    "label": "搜索",
+                    "command": "my-package:toggle"
+                },
+                {
+                    "label": "下一首",
+                    "command": "my-package:next"
+                },
+                {
+                    "label": "播放",
+                    "command": "my-package:play"
+                },
+                {
+                    "label": "暂停",
+                    "command": "my-package:pause"
+                },
+                {
+                    "label": "获取网易云歌曲",
+                    "command": "my-package:getmusic"
+                },
+                {
+                    "label": "获取播放列表",
+                    "command": "my-package:list"
+                }
+            ]
+        }]
+    }]
+}
