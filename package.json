@@ -1,13 +1,13 @@
 {
-  "name": "my-package",
+  "name": "codelover-music",
   "main": "./lib/my-package",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "1.0.0",
+  "description": "atom在线音乐插件",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "my-package:toggle"
   },
-  "repository": "https://github.com/atom/my-package",
+  "repository": "https://github.com/lovercode/atom.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

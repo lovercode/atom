@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "my-package:toggle",
+    "ctrl-alt-m": "my-package:toggle",
     "ctrl-alt-q": "my-package:play",
     "ctrl-alt-n": "my-package:next",
     "ctrl-alt-w": "my-package:pause",
